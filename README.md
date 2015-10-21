@@ -44,4 +44,4 @@ are available; see the [table of concepts](https://gbv.github.io/jskos/jskos.htm
 
 ## License
 
-`openpatata-glossary` is licensed under CC BY 4.0.
+*openpatata-glossary* is licensed under CC BY 4.0.

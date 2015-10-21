@@ -204,7 +204,7 @@
   type: ["http://www.w3.org/2004/02/skos/core#Concept"]
   prefLabel:
     el: συνεδρία της Ολομέλειας
-    en: plenary sittings
+    en: plenary sitting
     tr:
   definition:
     el: Συνεδρία όπου όλοι οι βουλευτές πρέπει να παρευρεθούν. Στην Ολομέλεια,
@@ -334,8 +334,6 @@
     tr:
   notation:
   -
-  broader:
-  - uri: opag:proposedLegislation
   narrower:
   - uri: opag:regulations
 - uri: opag:sponsor
