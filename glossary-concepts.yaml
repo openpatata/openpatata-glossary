@@ -1,0 +1,367 @@
+---
+- uri: opag:adHocCommittee
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: ad-hoc επιτροπή
+    en: ad hoc committee
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:committee
+- uri: opag:amendment1
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: τροποποιητικός νόμος
+    en: amendment
+    tr:
+  altLabel:
+    el:
+    - τροποποίηση
+    en:
+    -
+    tr:
+    -
+  definition:
+    el: Νόμος που αλλάζει άλλο υφιστάμενο νόμο.
+    en: A piece of legislation which amends an existing law.
+    tr:
+  notation:
+  -
+- uri: opag:amendment2
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: τροπολογία
+    en: amendment
+    tr:
+  definition:
+    el: Αλλαγή στο κείμενο σχεδίου νόμου που προτείνεται σε επιτροπή ή στην
+      Ολομέλεια.
+    en: An amendment to a proposed piece of legislation, which is itself
+      proposed in a committee or the plenary, during a meeting.
+    tr:
+  notation:
+  -
+- uri: opag:bill
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: σχέδιο νόμου
+    en: bill
+    tr:
+  definition:
+    el: Προτεινόμενος νόμος.
+    en: A piece of draft legislation.
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:proposedLegislation
+  narrower:
+  - uri: opag:governmentBill
+  - uri: opag:membersBill
+- uri: opag:committee
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: επιτροπή
+    en: committee
+    tr:
+  definition:
+    el: Ομάδα βουλευτών που μελετούν προτεινόμενες νομοθεσίες συγκεκριμένου
+      είδους.  Οι επιτροπές συμβουλεύονται τους εισηγητές και άλλους
+      ενδιαφερόμενους παράγοντες, και καταθέτουν εκθέσεις στην Ολομέλεια.
+    en: Members who deliberate on proposed legislation of a particular nature.
+      Committees consult with the sponsor(s) of a bill and interested parties,
+      and prepare reports.
+    tr:
+  notation:
+  -
+  narrower:
+  - uri: opag:adHocCommittee
+  - uri: opag:subcommittee
+  related:
+  - uri: opag:committeeMeeting
+  - uri: opag:committeeReport
+- uri: opag:committeeMeeting
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: συνεδρία επιτροπής
+    en: committee meeting
+    tr:
+  definition:
+    el: Συνάντηση επιτροπής.
+    en: A meeting of a committee.
+    tr:
+  notation:
+  -
+- uri: opag:committeeReport
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: έκθεση επιτροπής
+    en: committee report
+    tr:
+  definition:
+    el: Έκθεση επιτροπής για προτεινόμενες νομοθεσίες που αυτή μελέτησε.
+    en: A report on one or several pieces of proposed legislation prepared by a
+      committee.
+    tr:
+  notation:
+  -
+- uri: opag:explanatoryEssay
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: αιτιολογική έκθεση
+    en: explanatory essay
+    tr:
+  altLabel:
+    el:
+    -
+    en:
+    - explanatory note
+    tr:
+    -
+  definition:
+    el: Έκθεση που κατατίθεται μαζί με ένα σχέδιο νόμου και αιτιολογεί την
+      αναγκή για την εφαρμογή του σχεδίου και των πτυχών του σχεδίου.
+    en:
+    tr:
+- uri: opag:governmentBill
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: νομοσχέδιο
+    en: government bill
+    tr:
+  definition:
+    el: Σχέδιο νόμου που προτάθηκε από την κυβέρνηση (εκτελεστική εξουσία).
+    en: A piece of draft legislation put forth by the government.
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:bill
+- uri: opag:meeting
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: συνεδρία
+    en: meeting
+    tr:
+  altLabel:
+    el:
+    - συνεδρίαση
+    en:
+    - sitting
+    tr:
+    -
+  definition:
+    el: Συνάντηση επιτροπής ή της Ολομέλειας.
+    en: A meeting of a committee or the plenary.
+    tr:
+  notation:
+  -
+  narrower:
+  - uri: opag:committeeMeeting
+  - uri: opag:plenarySitting
+- uri: opag:membersBill
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: πρόταση νόμου
+    en: Member's bill
+    tr:
+  altLabel:
+    el:
+    -
+    en:
+    - Members' bill
+    tr:
+    -
+  definition:
+    el: Σχέδιο νόμου που προτάθηκε από βουλευτή/ες.
+    en: A piece of draft legislation put forth by one or several Members of
+      Parliament.
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:bill
+- uri: opag:plenary
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: Ολομέλεια
+    en: plenary
+    tr:
+  definition:
+    el: Η βουλή στο σύνολό της· όλοι οι βουλευτές.
+    en: The legislature as a whole.
+    tr:
+  notation:
+  -
+  related:
+  - uri: opag:plenarySitting
+- uri: opag:plenarySitting
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: συνεδρία της Ολομέλειας
+    en: plenary sittings
+    tr:
+  definition:
+    el: Συνεδρία όπου όλοι οι βουλευτές πρέπει να παρευρεθούν. Στην Ολομέλεια,
+      οι βουλευτές ψηφίζουν πάνω σε προτεινόμενα σχέδια νόμου, βγάζουν
+      αποφάσεις, κτλ.
+    en: A meeting (or 'sitting') of the plenary is a meeting all Members are
+      expected to attend.  At a plenary meeting, Members vote on proposed
+      legislation, issue decisions, etc.
+    tr:
+  broader:
+  - uri: opag:meeting
+- uri: opag:question
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: ερώτηση
+    en: question
+    tr:
+  definition:
+    el: Ερώτηση βουλευτή προς υπουργό/ούς.
+    en:
+    tr:
+  notation:
+  -
+- uri: opag:quorum
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: απαρτία
+    en: quorum
+    tr:
+  definition:
+    el:
+    en: The minimum number of Members that need to be present for a meeting to
+      be held.
+    tr:
+  notation:
+  -
+- uri: opag:primaryLegislation
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: πρωτογενή νομοθεσία
+    en: primary legislation
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+- uri: opag:proposedLegislation
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: προτεινόμενη νομοθεσία
+    en: proposed legislation
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+  narrower:
+  - bill
+  - regulations
+- uri: opag:reading
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: ανάγνωση
+    en: reading
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+- uri: opag:regulations
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: κανονισμοί
+    en: regulations
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:proposedLegislation
+  - uri: opag:secondaryLegislation
+- uri: opag:session
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: σύνοδος
+    en: session
+    tr:
+  altLabel:
+    el:
+    -
+    en:
+    - legislative session
+    tr:
+    -
+  definition:
+    el:
+    en: An uninterrupted period of lawmaking, lasting a little less than a
+      year.
+    tr:
+  notation:
+  -
+- uri: opag:secondaryLegislation
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: δευτερογενή νομοθεσία
+    en: secondary legislation
+    tr:
+  altLabel:
+    el:
+    -
+    en:
+    - delegated legislation
+    tr:
+    -
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:proposedLegislation
+  narrower:
+  - uri: opag:regulations
+- uri: opag:sponsor
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: εισηγητής
+    en: sponsor
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+- uri: opag:subcommittee
+  type: ["http://www.w3.org/2004/02/skos/core#Concept"]
+  prefLabel:
+    el: υποεπιτροπή
+    en: subcommittee
+    tr:
+  definition:
+    el:
+    en:
+    tr:
+  notation:
+  -
+  broader:
+  - uri: opag:committee
+...
